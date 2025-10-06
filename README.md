@@ -106,10 +106,8 @@ $m \frac{d^2x}{dt^2} = F(x)$
 * **Закон Герца:** ( $F = k \cdot \Delta x^{3/2}$ )
 
 Дифференциальное уравнение решается **численно (методом Эйлера)**:
-$
-v_{t+\Delta t} = v_t + a_t \cdot \Delta t,\quad
-x_{t+\Delta t} = x_t + v_{t+\Delta t} \cdot \Delta t
-$
+$v_{t+\Delta t} = v_t + a_t \cdot \Delta t,\quad $
+$x_{t+\Delta t} = x_t + v_{t+\Delta t} \cdot \Delta t$
 
 Таким образом, программа моделирует процесс деформации и восстановления формы шаров при ударе.
 
